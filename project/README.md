@@ -9,7 +9,7 @@ The `single_particle.gif` shows that a single particle at the center of the grid
 
 ## Task 2: Two rotating particles
 
-Giving two particles some initial velocity in equal and opposite directions makes them rotate about a common center of mass under certain conditions. I'm showing one of these cases in `two_particles.gif` - Here, the particles return to their original positions after one full rotation. 
+Giving two particles some initial velocity in equal and opposite directions makes them rotate about a common center of mass under certain conditions. I'm showing one of these cases in `two_particles.gif` - Here, the particles return to their original positions after one full rotation. The trajectories are not perfectly round, but *slightly* elliptic. Thus the opposing particle does not reach the other's starting position after half a rotation. This effect is symmetric and the center of mass stays the same. 
 
 ## Task 3: 100k particles
 
