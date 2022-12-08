@@ -9,7 +9,7 @@ The `single_particle.gif` shows that a single particle at the center of the grid
 
 ## Task 2: Two rotating particles
 
-Giving two particles some initial velocity in equal and opposite directions makes them rotate about a common center of mass under certain conditions. I'm showing one of these cases in 'two_particles.gif' - Here, the particles return to their original positions after one full rotation. 
+Giving two particles some initial velocity in equal and opposite directions makes them rotate about a common center of mass under certain conditions. I'm showing one of these cases in `two_particles.gif` - Here, the particles return to their original positions after one full rotation. 
 
 ## Task 3: 100k particles
 
