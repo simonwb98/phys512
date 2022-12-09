@@ -24,7 +24,7 @@ Giving two particles some initial velocity in equal and opposite directions make
 
 ![](https://github.com/simonwb98/phys512/blob/main/project/gifs/two_particles.gif)
 
-## Task 3: 100k particles
-
+## Task 3: Many, many, many particles (Wish computational death for my laptop)
+With periodic boundary conditions, I get the following gif for 100k particles. For long time periods the clusters are seen to agglomerate close to the corners of the frame (which are of course the same position by periodicity) to form a mega-cluster. There could be a physical explanation that I don't see, but I found this to be peculiar, because the corners should in principle not be *special* in that sense. 
 ![](https://github.com/simonwb98/phys512/blob/main/project/gifs/many_particles_100k.gif)
 ## Task 4: Using rk4
