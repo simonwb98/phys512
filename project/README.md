@@ -27,5 +27,7 @@ Giving two particles some initial velocity in equal and opposite directions make
 ## Task 3: Many, many, many particles (Wish computational death for my laptop)
 With periodic boundary conditions, I get the following gif for 100k particles. For long time periods the clusters are seen to agglomerate close to the corners of the frame (which are of course the same position by periodicity) to form a mega-cluster. There could be a physical explanation, but I found this effect to be peculiar, because the corners should in principle not be *special* in that sense. 
 ![](https://github.com/simonwb98/phys512/blob/main/project/gifs/many_particles_100k.gif)
+
+The kinetic and potential energies are tracked throughout the simulation. The plot below shows that the total energy stays roughly constant and starts off with only potential energy that gets converted into kinetic energy. 
 ![](https://github.com/simonwb98/phys512/blob/main/project/figs/100k_particles_periodic_leapfrog.jpg)
 ## Task 4: Using rk4
