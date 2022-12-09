@@ -26,5 +26,5 @@ Giving two particles some initial velocity in equal and opposite directions make
 
 ## Task 3: 100k particles
 
-
+![](https://github.com/simonwb98/phys512/blob/main/project/gifs/many_particles_100k.gif)
 ## Task 4: Using rk4
