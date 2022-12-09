@@ -7,7 +7,9 @@ For each timestep, I compute the density matrix ``self.grid``, convolve it with 
 ```
 self.grid, self.xedges, self.yedges = np.histogram2d(self.x, self.y, range = [[0, self.N], [0, self.N]], bins = self.N)
 ```
-where `self.N` is the number of grid cells in each dimension. I've used `scipy`'s `signal.convolve2d` function to compute the convolution instead of using `numpy.fft.fftn`/`numpy.fft.rfftn`/etc, because I didn't want to mess with complications following wrap-around errors or other slightly non-intuitive behaviours of those functions. Additionally, `signal` allows one to skip several steps in the computation of the convolution (like zero-padding or shifting) by simply defining them in the function call. 
+where `self.N` is the number of grid cells in each dimension. I've used `scipy`'s `signal.convolve2d` function to compute the convolution instead of using `numpy.fft.fftn`/`numpy.fft.rfftn`/etc., because I didn't want to mess with complications following wrap-around errors or other slightly non-intuitive behaviours of those functions. Additionally, `signal` allows one to skip several steps in the computation of the convolution (like zero-padding or shifting) by simply defining them in the function call. 
+
+I compute the gradient of the full potential matrix using the `numpy.gradient` method and defining the acceleration for each particle by finding it's position on the grid. The values of the gradient matrix in the cell of the matrix then serve as the force on each. Thereby, particles in the same grid cell do not feel forces from each other.
 
 
 ## Task 1: Single particle
