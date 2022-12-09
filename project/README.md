@@ -15,6 +15,8 @@ I compute the gradient of the full potential matrix using the `numpy.gradient` m
 ## Task 1: Single particle
 
 The `single_particle.gif` shows that a single particle at the center of the grid does not move from it's original position as expected.
+![](https://github.com/simonwb98/phys512/blob/main/project/gifs/single_particle.gif)
+
 
 ## Task 2: Two rotating particles
 
